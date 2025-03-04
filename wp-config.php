@@ -20,16 +20,11 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
-
-/** Database username */
-define( 'DB_USER', 'username_here' );
-
-/** Database password */
-define( 'DB_PASSWORD', 'password_here' );
-
-/** Database hostname */
-define( 'DB_HOST', 'localhost' );
+/** The name of the database for WordPress */
+define('DB_NAME', 'if0_38403121_wordpress'); // Reemplaza con el nombre de tu BD
+define('DB_USER', 'if0_38403121'); // Reemplaza con tu usuario de BD
+define('DB_PASSWORD', '9L9D6JafjCw'); // Reemplaza con la contraseña de BD
+define('DB_HOST', 'sql109.infinityfree.com'); // Reemplaza con el host correcto de InfinityFree
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
